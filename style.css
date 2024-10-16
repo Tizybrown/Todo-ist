@@ -1,0 +1,88 @@
+body {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    min-height: 100vh;
+    
+    background: linear-gradient(#ffffff, #0d00ffcf);
+  }
+
+  
+
+  .container {
+    background-color: rgba(65, 65, 251, 0.595);
+    color: rgb(255, 255, 255);
+    padding: 25px;
+    margin: 0;
+    border-radius: 15px 0 ;
+  }
+  .container h1 {
+    font-family: Arial, Helvetica, sans-serif;
+  
+    margin: 30px 0;
+  }
+  .container form {
+    margin: 30px 0;
+  }
+  .add-todo {
+    margin: 0;
+  }
+  form input {
+    padding: 10px 15px;
+    border-radius: 5px 0;
+    outline: none;
+    font-weight: bolder;
+    border: none;
+    font-size: 18px;
+  }
+  form button {
+    padding: 8px 0;
+    margin: 0;
+    border: none;
+    border-radius: 5px 0;
+    color: white;
+    font-size: 16px;
+  }
+  .todo_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(8, 28, 253);
+    padding: 4px 20px;
+    margin: 12px 0;
+    border-radius: 18px 0;
+  }
+  
+  .todos {
+    overflow: scroll;
+    max-height: 300px;
+  }
+  .todo_list span {
+    background: white;
+    color: rgb(226, 12, 12);
+    padding: 0 4px; 
+    font-weight: bold;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  
+  .todos::-webkit-scrollbar {
+    display: none;
+  }
+
+  .submit-button {
+    padding: 8px 15px;
+    border: none;
+    background: rgba(0, 0, 255, 0.026);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.submit-button:hover {
+    background-color: rgb(50, 0, 249);
+}  
